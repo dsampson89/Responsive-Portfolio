@@ -134,3 +134,58 @@ input[type=submit] {
 #message {
     height:200px;
 }
+/*@media screens*/
+
+@media screen and (max-width: 980px) {
+    .mainContent {
+      width: 100%;
+      float:left;
+      max-width: 700px;
+      padding: 30px;
+      margin: 0 0 40px;
+      background: #ffffff;
+      border: 1px solid #dddddd;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .mainHeader {
+      width: 100%;
+      position: fixed;
+      z-index: 99;
+      overflow: auto;
+      color: #ffffff;
+      background: #ffffff;
+      border-bottom: 2px solid #cccccc;
+    }
+    nav {
+        margin-top: 25px;
+        text-align: right;
+        padding-right: 25px;
+
+    }
+    .mainContent {
+        float: left;
+        width: 100%;
+        max-width: 650px;
+        padding: 30px;
+        margin: 0 0 40px;
+        background: #ffffff;
+        border: 1px solid #dddddd;
+    }
+  }
+ 
+  @media screen and (max-width: 640px) {
+    .mainHeader {
+      width: 100%;
+    }
+    nav {
+        margin-top: 0px;
+        text-align: right;
+        padding-right: 170px;
+    }
+    .mainContent {
+        max-width: 400px;
+    }
+    
+  }
